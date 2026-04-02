@@ -1,3 +1,13 @@
+/*
+problemset:https://codeforces.com/problemset/problem/71/A
+discription: in this code it asks me to switch the uppercase letters to lowercase if the whole word is in uppercase and to make the 
+first letter lowercase if the whole word is in uppercase but the first letter,I used a simple way to do it,I had 3 strings and made them
+equal and used 2 bools, first bool is for the case of the first letter being lower but the rest is in uppercase, and the selcond is
+for the case of the whole word being in uppercase, and made 2 loops that go through the whole word to check if any of the conditions are
+met for it to change, if none of the conditions are met the word is printed unchaged.
+*/
+
+
 #include <iostream>
 #include <string>
 #include <cctype>
