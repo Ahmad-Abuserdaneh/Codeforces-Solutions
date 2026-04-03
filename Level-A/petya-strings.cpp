@@ -1,4 +1,10 @@
-
+/*
+problemset: https://codeforces.com/group/Q1MFeozT3I/contest/683116/problem/E
+discription: in this problem they asked me to give every letter a number and gets higher in order a<b<c... and the caps are equal to the 
+origenal charecter, so i used a loop that loops as many times as the word's length, and made it that if the letter thats inserted by the 
+user is upper case it turns it to lower so that all letters are equal (a and A or b and B) and the math works,and finaly if the first word's value is
+higher than the second it prints 1 if equal 0 if the second is bigger -1.
+*/
 
 #include <iostream>
 #include <string>
